@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A0AAAA841BFA649B00A8336E /* LibreOTP: Git Version */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0AAAA851BFA649B00A8336E /* Build configuration list for PBXAggregateTarget "LibreOTP: Git Version" */;
+			buildPhases = (
+				A0AAAA881BFA64A900A8336E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "LibreOTP: Git Version";
+			productName = "LibreOTP: Git Version";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A0102FD11C1F43C100373233 /* encodings_base32.c in Sources */ = {isa = PBXBuildFile; fileRef = A0102FCF1C1F43C100373233 /* encodings_base32.c */; };
+		A0102FD21C1F43C100373233 /* encodings_base32.h in Headers */ = {isa = PBXBuildFile; fileRef = A0102FD01C1F43C100373233 /* encodings_base32.h */; };
+		A0AAAA961BFA650D00A8336E /* encodings.c in Sources */ = {isa = PBXBuildFile; fileRef = A0AAAA7B1BFA63A300A8336E /* encodings.c */; };
+		A0AAAA991BFA650D00A8336E /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = A0AAAA7F1BFA63A300A8336E /* version.c */; };
+		A0AAAA9B1BFA654200A8336E /* libreotp.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AAAA771BFA63A300A8336E /* libreotp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0AAAA9D1BFA654F00A8336E /* encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AAAA7C1BFA63A300A8336E /* encodings.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A0AAAA9E1BFA654F00A8336E /* libibreotp.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AAAA7D1BFA63A300A8336E /* libibreotp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A0AAAA9F1BFA654F00A8336E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AAAA801BFA63A300A8336E /* version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0AAAA921BFA64FB00A8336E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0AAAA6C1BFA634500A8336E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0AAAA841BFA649B00A8336E;
+			remoteInfo = "LibreOTP: Git Version";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0102FBC1C1F42E600373233 /* acinclude.m4 */ = {isa = PBXFileReference; explicitFileType = text.script; fileEncoding = 4; path = acinclude.m4; sourceTree = "<group>"; };
+		A0102FBD1C1F42E600373233 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		A0102FBE1C1F42E600373233 /* autogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		A0102FBF1C1F42E600373233 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		A0102FC01C1F42E600373233 /* configure.ac */ = {isa = PBXFileReference; explicitFileType = text.script; fileEncoding = 4; path = configure.ac; sourceTree = "<group>"; };
+		A0102FC11C1F42E600373233 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A0102FC21C1F42E600373233 /* Makefile.am */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; indentWidth = 8; path = Makefile.am; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+		A0102FC31C1F42E600373233 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		A0102FC41C1F42E600373233 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A0102FC61C1F434A00373233 /* port-seq-enc.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "port-seq-enc.sh"; sourceTree = "<group>"; };
+		A0102FC71C1F434A00373233 /* port-seq.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "port-seq.sh"; sourceTree = "<group>"; };
+		A0102FC81C1F434A00373233 /* rfc4226.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rfc4226.txt; sourceTree = "<group>"; };
+		A0102FC91C1F434A00373233 /* rfc6238.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rfc6238.txt; sourceTree = "<group>"; };
+		A0102FCA1C1F434A00373233 /* secret.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secret.txt; sourceTree = "<group>"; };
+		A0102FCF1C1F43C100373233 /* encodings_base32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encodings_base32.c; sourceTree = "<group>"; };
+		A0102FD01C1F43C100373233 /* encodings_base32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodings_base32.h; sourceTree = "<group>"; };
+		A0AAAA771BFA63A300A8336E /* libreotp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libreotp.h; sourceTree = "<group>"; };
+		A0AAAA7B1BFA63A300A8336E /* encodings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encodings.c; sourceTree = "<group>"; };
+		A0AAAA7C1BFA63A300A8336E /* encodings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encodings.h; sourceTree = "<group>"; };
+		A0AAAA7D1BFA63A300A8336E /* libibreotp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libibreotp.h; sourceTree = "<group>"; };
+		A0AAAA7E1BFA63A300A8336E /* libibreotp.sym */ = {isa = PBXFileReference; explicitFileType = text.script; path = libibreotp.sym; sourceTree = "<group>"; };
+		A0AAAA7F1BFA63A300A8336E /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		A0AAAA801BFA63A300A8336E /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		A0AAAA8D1BFA64EF00A8336E /* libibreotp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libibreotp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0AAAA8A1BFA64EF00A8336E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0102FC51C1F434A00373233 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				A0102FC61C1F434A00373233 /* port-seq-enc.sh */,
+				A0102FC71C1F434A00373233 /* port-seq.sh */,
+				A0102FC81C1F434A00373233 /* rfc4226.txt */,
+				A0102FC91C1F434A00373233 /* rfc6238.txt */,
+				A0102FCA1C1F434A00373233 /* secret.txt */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		A0AAAA6B1BFA634500A8336E = {
+			isa = PBXGroup;
+			children = (
+				A0102FBC1C1F42E600373233 /* acinclude.m4 */,
+				A0102FBD1C1F42E600373233 /* AUTHORS */,
+				A0102FBE1C1F42E600373233 /* autogen.sh */,
+				A0102FBF1C1F42E600373233 /* ChangeLog */,
+				A0102FC01C1F42E600373233 /* configure.ac */,
+				A0102FC11C1F42E600373233 /* COPYING */,
+				A0102FC21C1F42E600373233 /* Makefile.am */,
+				A0102FC31C1F42E600373233 /* NEWS */,
+				A0102FC41C1F42E600373233 /* README */,
+				A0102FC51C1F434A00373233 /* docs */,
+				A0AAAA721BFA63A300A8336E /* include */,
+				A0AAAA791BFA63A300A8336E /* lib */,
+				A0AAAA811BFA63A300A8336E /* src */,
+				A0AAAA8E1BFA64EF00A8336E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0AAAA721BFA63A300A8336E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAAA771BFA63A300A8336E /* libreotp.h */,
+			);
+			path = include;
+			sourceTree = SOURCE_ROOT;
+		};
+		A0AAAA791BFA63A300A8336E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAAA7A1BFA63A300A8336E /* libibreotp */,
+			);
+			path = lib;
+			sourceTree = SOURCE_ROOT;
+		};
+		A0AAAA7A1BFA63A300A8336E /* libibreotp */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAAA7B1BFA63A300A8336E /* encodings.c */,
+				A0AAAA7C1BFA63A300A8336E /* encodings.h */,
+				A0102FCF1C1F43C100373233 /* encodings_base32.c */,
+				A0102FD01C1F43C100373233 /* encodings_base32.h */,
+				A0AAAA7D1BFA63A300A8336E /* libibreotp.h */,
+				A0AAAA7E1BFA63A300A8336E /* libibreotp.sym */,
+				A0AAAA7F1BFA63A300A8336E /* version.c */,
+				A0AAAA801BFA63A300A8336E /* version.h */,
+			);
+			path = libibreotp;
+			sourceTree = "<group>";
+		};
+		A0AAAA811BFA63A300A8336E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAAA821BFA63A300A8336E /* cliutil */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		A0AAAA821BFA63A300A8336E /* cliutil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cliutil;
+			sourceTree = "<group>";
+		};
+		A0AAAA8E1BFA64EF00A8336E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAAA8D1BFA64EF00A8336E /* libibreotp.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0AAAA8B1BFA64EF00A8336E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AAAA9B1BFA654200A8336E /* libreotp.h in Headers */,
+				A0102FD21C1F43C100373233 /* encodings_base32.h in Headers */,
+				A0AAAA9D1BFA654F00A8336E /* encodings.h in Headers */,
+				A0AAAA9E1BFA654F00A8336E /* libibreotp.h in Headers */,
+				A0AAAA9F1BFA654F00A8336E /* version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0AAAA8C1BFA64EF00A8336E /* ibreotp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AAAA8F1BFA64EF00A8336E /* Build configuration list for PBXNativeTarget "ibreotp" */;
+			buildPhases = (
+				A0AAAA891BFA64EF00A8336E /* Sources */,
+				A0AAAA8A1BFA64EF00A8336E /* Frameworks */,
+				A0AAAA8B1BFA64EF00A8336E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0AAAA931BFA64FB00A8336E /* PBXTargetDependency */,
+			);
+			name = ibreotp;
+			productName = ibreotp;
+			productReference = A0AAAA8D1BFA64EF00A8336E /* libibreotp.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0AAAA6C1BFA634500A8336E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					A0AAAA841BFA649B00A8336E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A0AAAA8C1BFA64EF00A8336E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A0AAAA6F1BFA634500A8336E /* Build configuration list for PBXProject "LibreOTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0AAAA6B1BFA634500A8336E;
+			productRefGroup = A0AAAA8E1BFA64EF00A8336E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0AAAA841BFA649B00A8336E /* LibreOTP: Git Version */,
+				A0AAAA8C1BFA64EF00A8336E /* ibreotp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0AAAA881BFA64A900A8336E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "contrib/bindletools/build-aux/git-package-version.sh ${PROJECT_DIR} ${PROJECT_DIR}/include";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0AAAA891BFA64EF00A8336E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0102FD11C1F43C100373233 /* encodings_base32.c in Sources */,
+				A0AAAA961BFA650D00A8336E /* encodings.c in Sources */,
+				A0AAAA991BFA650D00A8336E /* version.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0AAAA931BFA64FB00A8336E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0AAAA841BFA649B00A8336E /* LibreOTP: Git Version */;
+			targetProxy = A0AAAA921BFA64FB00A8336E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0AAAA701BFA634500A8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		A0AAAA711BFA634500A8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A0AAAA861BFA649B00A8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0AAAA871BFA649B00A8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0AAAA901BFA64EF00A8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					include,
+					contrib/bindletools/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0AAAA911BFA64EF00A8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					include,
+					contrib/bindletools/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0AAAA6F1BFA634500A8336E /* Build configuration list for PBXProject "LibreOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AAAA701BFA634500A8336E /* Debug */,
+				A0AAAA711BFA634500A8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AAAA851BFA649B00A8336E /* Build configuration list for PBXAggregateTarget "LibreOTP: Git Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AAAA861BFA649B00A8336E /* Debug */,
+				A0AAAA871BFA649B00A8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AAAA8F1BFA64EF00A8336E /* Build configuration list for PBXNativeTarget "ibreotp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AAAA901BFA64EF00A8336E /* Debug */,
+				A0AAAA911BFA64EF00A8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0AAAA6C1BFA634500A8336E /* Project object */;
+}
