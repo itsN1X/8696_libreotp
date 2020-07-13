@@ -3,6 +3,29 @@ This repository was updated to [`itsN1X`](https://github.com/itsN1X)/`8696_libre
 ##### Feel free to make any contributions. Keep your commits atomic and neatly commented.  
 One may `checkout` the latest branch at `master` itself. Please read this entire document first.
 
+----
+
+### Additional resources:
+
+
+- [Encode/decode OTP data using TCP/UDP.](port-seq-enc.sh)
+
+- [Extension/examples of translations.](port-seq.sh)
+
+- [RFC-2104 documentation.](rfc2104.txt)
+
+- [RFC-3602 documentation.](rfc3602.txt)
+
+- [RFC-4226 documentation.](rfc4226.txt)
+
+- [RFC-6238 documentation.](rfc6238.txt)
+
+- [Format for TOTP secret](secret.txt)
+
+
+
+----
+
 ## Legacy `README`
 
 ```
