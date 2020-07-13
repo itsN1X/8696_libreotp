@@ -1,4 +1,11 @@
+# Welcome to [`@itsN1X`](https://google.com/search?q=itsN1X)/[`8696_libreotp`](https://github.com/itsN1X/8696_libreotp)
+This repository was updated to [`itsN1X`](https://github.com/itsN1X)/`8696_libreotp` with `bindle`/`libre_otp`/tree/[`pu`](https://github.com/bindle/libreotp/tree/pu) on day 8696.  
+##### Feel free to make any contributions. Keep your commits atomic and neatly commented.  
+One may `checkout` the latest branch at `master` itself. Please read this entire document first.
 
+## Legacy `README`
+
+```
 LibreOTP
 =====================
 
@@ -99,3 +106,4 @@ Package Maintence Notes
       $ make distcheck
       $ make dist-bzip2
 
+```
